@@ -1,0 +1,67 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+
+}
+
+.kitty-container {
+    display: block;
+    width: 85%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.kitty-image {
+    display: block;
+    width: 100%;
+    margin-bottom: 2em;
+
+
+}
+
+.header {
+    font-size: 4rem;
+    letter-spacing: 5px;
+    margin-bottom: .5em;
+
+}
+
+.get-btn, .clear-btn {
+    display: inline;
+    margin: .25em;
+    padding: .5em 1.5em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    background-color: green;
+}
+
+.clear-btn {   
+    background-color: red;
+}
+
+.get-btn:hover, .clear-btn:hover {
+    opacity: .75;
+}
+
+.cat-fact {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    padding: 1em;
+    line-height: 25px;
+
+}
+
