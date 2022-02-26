@@ -54,6 +54,16 @@ body {
 
 .get-btn:hover, .clear-btn:hover {
     opacity: .75;
+    cursor: pointer;
+}
+
+.cat-fact-container {
+    display: block;
+    width: 100%;
+    height: 150px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    overflow: auto;
 }
 
 .cat-fact {
@@ -62,6 +72,7 @@ body {
     font-size: 1.8rem;
     padding: 1em;
     line-height: 25px;
+    
 
 }
 
